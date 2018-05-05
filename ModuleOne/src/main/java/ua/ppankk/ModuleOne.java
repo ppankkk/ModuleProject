@@ -6,7 +6,7 @@ public class ModuleOne {
         ModuleTwo moduleTwo = new ModuleTwo();
         ModuleThree moduleThree = new ModuleThree();
 
-        System.out.println("Hello this is a ModuleOne");
+        System.out.println("Hello this is a module B. It calls module C & module D");
 
         moduleTwo.MyMethod();
         moduleThree.MyMethod();
